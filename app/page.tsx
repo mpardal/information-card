@@ -14,10 +14,10 @@ export default function Page() {
 
   const program: ProgramItem[] = useMemo(
     () => [
-      { time: '06:30', title: 'Réveil en douceur', note: 'Café + tartines, en mode tranquille 🥣' },
-      { time: '07:30', title: 'Chemin vers le lieu de la journée', note: 'Départ pour une belle journée 🚘' },
-      { time: '09:30', title: 'Arrivée à Bad Zurzach', note: 'Un endroit que tu vas adorer ! 😱' },
-      { time: '10:00', title: 'Accès aux thermes', note: 'Baignade, pataugeage, défis... 💧' },
+      { time: '07:30', title: 'Réveil en douceur', note: 'Café + tartines, en mode tranquille 🥣' },
+      { time: '09:00', title: 'Chemin vers le lieu de la journée', note: 'Départ pour une belle journée 🚘' },
+      { time: '11:30', title: 'Arrivée à Bad Zurzach', note: 'Un endroit que tu vas adorer ! 😱' },
+      { time: '12:00', title: 'Accès aux thermes', note: 'Baignade, pataugeage, défis... 💧' },
       { time: '18:00', title: 'Récupération de la chambre', note: 'Découverte de la chambre, préparation pour la soirée 🛏️' },
       { time: '20:15', title: 'Dîner romantique', note: 'Toi + moi ♥️' },
       { time: '22:00', title: 'Petite balade en amoureux le long du Rhin', note: 'Toi + moi 👩‍❤️‍💋‍👨' },
